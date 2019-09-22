@@ -78,12 +78,19 @@ footer p{
     display:none; 
     list-style:none; 
     position:absolute; 
-    background-color:#d9705f;
+    background-color:#fff;
     float: none;
     top:65px; 
     width:100px;
 }
+#menu ul ul li {
+    text-align: center;
+}
 #menu ul li a:hover {
+    background-color:#d9705f; 
+    display:block;
+}
+#menu ul li ul li a :hover {
     background-color:#d9705f; 
     display:block;
 }
@@ -91,12 +98,12 @@ footer p{
     display:block;
 }
 #menu ul ul li a {
-    display:block;
-    padding-left:30px; 
-    text-align:left; 
-    width:160px;
-    height: 60px;
-    line-height: 60px;
+    float:left; 
+    width:100px; 
+    display:block; 
+    text-align:center; 
+    color:#222; 
+    text-decoration:none; 
 }
 
 #menu ul ul li a:hover {
