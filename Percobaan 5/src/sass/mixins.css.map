@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAMG,AAAA,IAAI,CAAC;EALJ,iBAAiB,EAME,aAAa;EALhC,aAAa,EAKM,aAAa;EAJhC,SAAS,EAIU,aAAa;CAChC",
+    "sources": [
+        "mixins.scss"
+    ],
+    "names": [],
+    "file": "mixins.css"
+}
