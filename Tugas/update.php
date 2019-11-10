@@ -1,13 +1,15 @@
 <?php
 include "koneksi.php";
 
-$id = $_GET["hapus_id"];
+$id = $_POST["id"];
+$artikel= $_POST["artikel"];
 
-$sql = "DELETE FROM artikel WHERE id_artikel = '$id'";
+
+$sql = "UPDATE artikel SET artikel = '$artikel' WHERE id_artikel = '$id'";
 $query = mysqli_query($koneksi, $sql) or die (mysqli_error());
 
 if($query){
-	echo "Data berhasil dihapus";
+	echo "Data berhasil diubah";
 }else{
 	echo "Error".$sql."<br>".mysqli_error($koneksi);
 }
